@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact | Culture Travel Club</title>
+</head>
+<body>
+      <header>
+        <h1>Culture Travel Club</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Our Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <main>
+   <h2>Contact Us</h2>
+    <p>Use this form to ask about our cultural trips.</p>
+
+    <form>
+        <fieldset>
+            <legend>Your Enquiry</legend>
+
+            <p>
+                <label for="fullname">Full name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </p>
+
+            <p>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+</p>
+
+<p>
+    <label for="travel-date">Preferred travel date:</label>
+    <input type="date" id="travel-date" name="travel-date" required>
+</p>
+
+<p>
+    <label for="destination">Destination:</label>
+    <select id="destination" name="destination" required>
+        <option value="">Choose a destination</option>
+        <option value="istanbul">Istanbul</option>
+        <option value="tunis">Tunis</option>
+        <option value="granada">Granada</option>
+        <option value="rome">Rome</option>
+        <option value="eskisehir">Eskişehir</option>
+    </select>
+</p>
+
+<p>
+    <label for="message">Your message:</label>
+    <br>
+    <textarea id="message" name="message"
+              rows="5" cols="40" required></textarea>
+</p>
+
+<button type="submit">Submit enquiry</button>
+        </fieldset>
+    </form>
+</main>
+
+     <footer>
+         <p>&copy; 2026 Samaher Gargabou. All rights reserved.</p>
+    </footer> 
+    
+</body>
+</html>
