@@ -1,4 +1,4 @@
-# Culture Travel Club
+﻿# Culture Travel Club
 
 An HTML-only website for a fictional cultural travel club.
 Created for Web Programming Assignment 1.
@@ -32,10 +32,9 @@ Use fictional information when testing.
 
 ## Challenges
 
-- Understanding where new elements belong in the HTML structure.
-- Keeping the navigation consistent across all four pages.
-- Connecting form labels to their corresponding inputs.
-
+I did not encounter major difficulties during this assignment.
+Since I had not used HTML for a while, I needed a short refresher
+on page structure and where to place new elements.
 ## Technologies
 
 HTML5 only. No CSS or JavaScript.
